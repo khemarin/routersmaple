@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83907FBD26310FAF0079F499 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83907FBC26310FAF0079F499 /* AppRouter.swift */; };
+		83907FC526310FEE0079F499 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83907FC426310FEE0079F499 /* TabBarRouter.swift */; };
+		83907FCC2631124D0079F499 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83907FCB2631124D0079F499 /* HomeRouter.swift */; };
+		83907FD4263112AF0079F499 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83907FD3263112AF0079F499 /* HomeViewController.swift */; };
+		83907FDC263117320079F499 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83907FDB263117320079F499 /* SearchViewController.swift */; };
+		83907FE12631173B0079F499 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83907FE02631173B0079F499 /* SearchRouter.swift */; };
+		83907FEA263130F90079F499 /* PageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83907FE9263130F90079F499 /* PageRouter.swift */; };
+		83907FF8263131320079F499 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83907FF7263131320079F499 /* PageViewController.swift */; };
+		83908003263143060079F499 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83908002263143060079F499 /* SearchViewModel.swift */; };
+		8390800C2631485B0079F499 /* AppRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390800B2631485B0079F499 /* AppRouterTests.swift */; };
+		8390801126314AD10079F499 /* Router+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390801026314AD10079F499 /* Router+Helper.swift */; };
+		8390801E263153000079F499 /* HomeRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390801D263153000079F499 /* HomeRouterTests.swift */; };
 		83DA47B3262FF7DC0085B5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA47B2262FF7DC0085B5FE /* AppDelegate.swift */; };
-		83DA47B5262FF7DC0085B5FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA47B4262FF7DC0085B5FE /* SceneDelegate.swift */; };
-		83DA47B7262FF7DC0085B5FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA47B6262FF7DC0085B5FE /* ViewController.swift */; };
 		83DA47BA262FF7DC0085B5FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DA47B8262FF7DC0085B5FE /* Main.storyboard */; };
 		83DA47BC262FF7DE0085B5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DA47BB262FF7DE0085B5FE /* Assets.xcassets */; };
 		83DA47BF262FF7DE0085B5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DA47BD262FF7DE0085B5FE /* LaunchScreen.storyboard */; };
-		83DA47CA262FF7DE0085B5FE /* RouterSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA47C9262FF7DE0085B5FE /* RouterSampleTests.swift */; };
 		83DA47D5262FF7DE0085B5FE /* RouterSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA47D4262FF7DE0085B5FE /* RouterSampleUITests.swift */; };
+		83DA47E7262FF8F60085B5FE /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA47E6262FF8F60085B5FE /* RouterProtocol.swift */; };
+		83DA47EC262FFA1C0085B5FE /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA47EB262FFA1C0085B5FE /* BaseRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +46,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83907FBC26310FAF0079F499 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		83907FC426310FEE0079F499 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		83907FCB2631124D0079F499 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		83907FD3263112AF0079F499 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		83907FDB263117320079F499 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		83907FE02631173B0079F499 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		83907FE9263130F90079F499 /* PageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRouter.swift; sourceTree = "<group>"; };
+		83907FF7263131320079F499 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		83908002263143060079F499 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		8390800A2631485B0079F499 /* RouterSampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RouterSampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8390800B2631485B0079F499 /* AppRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterTests.swift; sourceTree = "<group>"; };
+		8390801026314AD10079F499 /* Router+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Router+Helper.swift"; sourceTree = "<group>"; };
+		8390801D263153000079F499 /* HomeRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouterTests.swift; sourceTree = "<group>"; };
 		83DA47AF262FF7DC0085B5FE /* RouterSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DA47B2262FF7DC0085B5FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83DA47B4262FF7DC0085B5FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83DA47B6262FF7DC0085B5FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83DA47B9262FF7DC0085B5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83DA47BB262FF7DE0085B5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83DA47BE262FF7DE0085B5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83DA47C0262FF7DE0085B5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83DA47C5262FF7DE0085B5FE /* RouterSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83DA47C9262FF7DE0085B5FE /* RouterSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterSampleTests.swift; sourceTree = "<group>"; };
 		83DA47CB262FF7DE0085B5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83DA47D0262FF7DE0085B5FE /* RouterSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DA47D4262FF7DE0085B5FE /* RouterSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterSampleUITests.swift; sourceTree = "<group>"; };
 		83DA47D6262FF7DE0085B5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DA47E6262FF8F60085B5FE /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		83DA47EB262FFA1C0085B5FE /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +99,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83907FB926310F800079F499 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				83907FCA263112430079F499 /* Search */,
+				83907FC92631123E0079F499 /* Home */,
+				83907FBA26310F990079F499 /* App */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		83907FBA26310F990079F499 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				83DA47B2262FF7DC0085B5FE /* AppDelegate.swift */,
+				83907FBC26310FAF0079F499 /* AppRouter.swift */,
+				83907FC426310FEE0079F499 /* TabBarRouter.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		83907FC92631123E0079F499 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83907FE8263130DB0079F499 /* Page */,
+				83907FCB2631124D0079F499 /* HomeRouter.swift */,
+				83907FD3263112AF0079F499 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83907FCA263112430079F499 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				83907FDB263117320079F499 /* SearchViewController.swift */,
+				83907FE02631173B0079F499 /* SearchRouter.swift */,
+				83908002263143060079F499 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		83907FE8263130DB0079F499 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				83907FE9263130F90079F499 /* PageRouter.swift */,
+				83907FF7263131320079F499 /* PageViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
 		83DA47A6262FF7DC0085B5FE = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +171,8 @@
 		83DA47B1262FF7DC0085B5FE /* RouterSample */ = {
 			isa = PBXGroup;
 			children = (
-				83DA47B2262FF7DC0085B5FE /* AppDelegate.swift */,
-				83DA47B4262FF7DC0085B5FE /* SceneDelegate.swift */,
-				83DA47B6262FF7DC0085B5FE /* ViewController.swift */,
+				83DA47E5262FF8E20085B5FE /* BaseRouter */,
+				83907FB926310F800079F499 /* Scenes */,
 				83DA47B8262FF7DC0085B5FE /* Main.storyboard */,
 				83DA47BB262FF7DE0085B5FE /* Assets.xcassets */,
 				83DA47BD262FF7DE0085B5FE /* LaunchScreen.storyboard */,
@@ -113,8 +184,11 @@
 		83DA47C8262FF7DE0085B5FE /* RouterSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				83DA47C9262FF7DE0085B5FE /* RouterSampleTests.swift */,
 				83DA47CB262FF7DE0085B5FE /* Info.plist */,
+				8390801D263153000079F499 /* HomeRouterTests.swift */,
+				8390800B2631485B0079F499 /* AppRouterTests.swift */,
+				8390800A2631485B0079F499 /* RouterSampleTests-Bridging-Header.h */,
+				8390801026314AD10079F499 /* Router+Helper.swift */,
 			);
 			path = RouterSampleTests;
 			sourceTree = "<group>";
@@ -126,6 +200,15 @@
 				83DA47D6262FF7DE0085B5FE /* Info.plist */,
 			);
 			path = RouterSampleUITests;
+			sourceTree = "<group>";
+		};
+		83DA47E5262FF8E20085B5FE /* BaseRouter */ = {
+			isa = PBXGroup;
+			children = (
+				83DA47E6262FF8F60085B5FE /* RouterProtocol.swift */,
+				83DA47EB262FFA1C0085B5FE /* BaseRouter.swift */,
+			);
+			path = BaseRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +281,7 @@
 					};
 					83DA47C4262FF7DE0085B5FE = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 						TestTargetID = 83DA47AE262FF7DC0085B5FE;
 					};
 					83DA47CF262FF7DE0085B5FE = {
@@ -258,9 +342,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83DA47B7262FF7DC0085B5FE /* ViewController.swift in Sources */,
+				83907FC526310FEE0079F499 /* TabBarRouter.swift in Sources */,
 				83DA47B3262FF7DC0085B5FE /* AppDelegate.swift in Sources */,
-				83DA47B5262FF7DC0085B5FE /* SceneDelegate.swift in Sources */,
+				83907FF8263131320079F499 /* PageViewController.swift in Sources */,
+				83907FDC263117320079F499 /* SearchViewController.swift in Sources */,
+				83907FBD26310FAF0079F499 /* AppRouter.swift in Sources */,
+				83DA47EC262FFA1C0085B5FE /* BaseRouter.swift in Sources */,
+				83908003263143060079F499 /* SearchViewModel.swift in Sources */,
+				83907FE12631173B0079F499 /* SearchRouter.swift in Sources */,
+				83907FD4263112AF0079F499 /* HomeViewController.swift in Sources */,
+				83907FEA263130F90079F499 /* PageRouter.swift in Sources */,
+				83907FCC2631124D0079F499 /* HomeRouter.swift in Sources */,
+				83DA47E7262FF8F60085B5FE /* RouterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +361,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83DA47CA262FF7DE0085B5FE /* RouterSampleTests.swift in Sources */,
+				8390801126314AD10079F499 /* Router+Helper.swift in Sources */,
+				8390801E263153000079F499 /* HomeRouterTests.swift in Sources */,
+				8390800C2631485B0079F499 /* AppRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +569,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW38QS8Y36;
 				INFOPLIST_FILE = RouterSampleTests/Info.plist;
@@ -485,6 +581,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.khemarin.RouterSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RouterSampleTests/RouterSampleTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouterSample.app/RouterSample";
@@ -496,6 +594,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW38QS8Y36;
 				INFOPLIST_FILE = RouterSampleTests/Info.plist;
@@ -507,6 +606,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.khemarin.RouterSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RouterSampleTests/RouterSampleTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouterSample.app/RouterSample";
